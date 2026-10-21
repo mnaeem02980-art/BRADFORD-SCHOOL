@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bradford School - Kohat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button data-lang="en">EN</button>
+        <button data-lang="ur">اردو</button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>Bradford School</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                    <li><a href="academics.html" data-i18n="nav_academics">Academics</a></li>
+                    <li><a href="teachers.html" data-i18n="nav_teachers">Teachers</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero_title">Welcome to Bradford School</h1>
+            <p data-i18n="hero_subtitle">Excellence in Education, Excellence in Character</p>
+            <a href="#about-section" class="btn btn-primary" data-i18n="hero_btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Quick Info Section -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-cards">
+                <div class="card">
+                    <div class="card-icon">👨‍🎓</div>
+                    <h3 data-i18n="students">450 Students</h3>
+                    <p data-i18n="students_desc">Growing community of learners</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏫</div>
+                    <h3 data-i18n="facilities">Modern Facilities</h3>
+                    <p data-i18n="facilities_desc">State-of-the-art infrastructure</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👨‍🏫</div>
+                    <h3 data-i18n="faculty">Expert Faculty</h3>
+                    <p data-i18n="faculty_desc">Dedicated and qualified teachers</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📍</div>
+                    <h3 data-i18n="location">Kohat, Pakistan</h3>
+                    <p data-i18n="location_desc">Serving the community since establishment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-i18n="about_title">About Bradford School</h2>
+                    <p data-i18n="about_text">Bradford School is a premier educational institution located in Kohat, dedicated to providing quality education and holistic development to its students. With a student body of 450 bright and enthusiastic learners, we pride ourselves on creating an environment that fosters academic excellence and personal growth.</p>
+                    <p data-i18n="about_text2">Our mission is to empower students with knowledge, skills, and values that will help them succeed in their academic pursuits and become responsible citizens of society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="leadership">
+        <div class="container">
+            <h2 data-i18n="leadership_title">School Leadership</h2>
+            <div class="leadership-card">
+                <div class="leader-info">
+                    <h3 data-i18n="principal">Principal</h3>
+                    <p class="leader-name" data-i18n="principal_name">Sir Nawaz</p>
+                    <p class="leader-description" data-i18n="principal_desc">Visionary leader committed to educational excellence and student development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <h2 data-i18n="stats_title">By The Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h3>450</h3>
+                    <p data-i18n="stat_students">Students</p>
+                </div>
+                <div class="stat-box">
+                    <h3>25+</h3>
+                    <p data-i18n="stat_faculty">Faculty Members</p>
+                </div>
+                <div class="stat-box">
+                    <h3>15+</h3>
+                    <p data-i18n="stat_years">Years of Service</p>
+                </div>
+                <div class="stat-box">
+                    <h3>100%</h3>
+                    <p data-i18n="stat_dedication">Dedication</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Bradford School</h4>
+                    <p>Kohat, Pakistan</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="nav_home">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="footer_home">Home</a></li>
+                        <li><a href="about.html" data-i18n="footer_about">About</a></li>
+                        <li><a href="contact.html" data-i18n="footer_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p data-i18n="footer_phone">Phone: +92-922-915555</p>
+                    <p data-i18n="footer_email">Email: info@bradfordschool.pk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2024 Bradford School, Kohat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

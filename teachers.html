@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers - Bradford School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button data-lang="en">EN</button>
+        <button data-lang="ur">اردو</button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>Bradford School</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                    <li><a href="academics.html" data-i18n="nav_academics">Academics</a></li>
+                    <li><a href="teachers.html" class="active" data-i18n="nav_teachers">Teachers</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;" data-i18n="teachers_title">Our Faculty</h1>
+            <p style="font-size: 1.3rem;" data-i18n="teachers_subtitle">Dedicated Educators Shaping Futures</p>
+        </div>
+    </section>
+
+    <!-- Teachers Introduction -->
+    <section style="padding: 60px 20px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);">
+        <div class="container">
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <h2 style="color: #0f3460; font-size: 2.5rem; margin-bottom: 2rem;" data-i18n="teachers_intro_title">Meet Our Expert Teachers</h2>
+                <p style="font-size: 1.1rem; color: #475569; line-height: 1.9; margin-bottom: 1.5rem;" data-i18n="teachers_intro_text">
+                    Our faculty comprises highly qualified and experienced educators who are passionate about fostering academic excellence and personal growth. With years of teaching experience and commitment to student success, they create an inspiring learning environment where every student thrives.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Grid -->
+    <section style="padding: 80px 20px; background: white;">
+        <div class="container">
+            <div class="teachers-grid">
+                <!-- Teacher 1 -->
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <div class="teacher-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <span style="font-size: 4rem;">👨‍🏫</span>
+                        </div>
+                        <div class="teacher-overlay">
+                            <p style="color: white; font-weight: 600;">Mathematics & Science</p>
+                        </div>
+                    </div>
+                    <h3 data-i18n="teacher1_name">Mr. Ahmed Hassan</h3>
+                    <p class="teacher-subject" data-i18n="teacher1_subject">Mathematics & Physics</p>
+                    <p class="teacher-bio" data-i18n="teacher1_bio">15 years of teaching experience with a passion for making complex concepts simple and engaging.</p>
+                    <div class="teacher-quals">
+                        <span>M.Sc Physics</span>
+                        <span>B.Ed</span>
+                    </div>
+                </div>
+
+                <!-- Teacher 2 -->
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <div class="teacher-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <span style="font-size: 4rem;">👩‍🏫</span>
+                        </div>
+                        <div class="teacher-overlay">
+                            <p style="color: white; font-weight: 600;">English & Languages</p>
+                        </div>
+                    </div>
+                    <h3 data-i18n="teacher2_name">Mrs. Fatima Khan</h3>
+                    <p class="teacher-subject" data-i18n="teacher2_subject">English & Urdu Literature</p>
+                    <p class="teacher-bio" data-i18n="teacher2_bio">Dedicated to developing students' language skills and fostering a love for literature and writing.</p>
+                    <div class="teacher-quals">
+                        <span>M.A English</span>
+                        <span>B.Ed</span>
+                    </div>
+                </div>
+
+                <!-- Teacher 3 -->
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <div class="teacher-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <span style="font-size: 4rem;">👨‍🏫</span>
+                        </div>
+                        <div class="teacher-overlay">
+                            <p style="color: white; font-weight: 600;">Chemistry & Biology</p>
+                        </div>
+                    </div>
+                    <h3 data-i18n="teacher3_name">Dr. Muhammad Ali</h3>
+                    <p class="teacher-subject" data-i18n="teacher3_subject">Chemistry & Biology</p>
+                    <p class="teacher-bio" data-i18n="teacher3_bio">PhD holder committed to practical learning and conducting regular lab sessions for better understanding.</p>
+                    <div class="teacher-quals">
+                        <span>PhD Chemistry</span>
+                        <span>B.Ed</span>
+                    </div>
+                </div>
+
+                <!-- Teacher 4 -->
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <div class="teacher-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <span style="font-size: 4rem;">👩‍🏫</span>
+                        </div>
+                        <div class="teacher-overlay">
+                            <p style="color: white; font-weight: 600;">Social Studies</p>
+                        </div>
+                    </div>
+                    <h3 data-i18n="teacher4_name">Ms. Ayesha Malik</h3>
+                    <p class="teacher-subject" data-i18n="teacher4_subject">History & Geography</p>
+                    <p class="teacher-bio" data-i18n="teacher4_bio">Expert in making history come alive and geography interactive through innovative teaching methods.</p>
+                    <div class="teacher-quals">
+                        <span>M.A History</span>
+                        <span>B.Ed</span>
+                    </div>
+                </div>
+
+                <!-- Teacher 5 -->
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <div class="teacher-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <span style="font-size: 4rem;">👨‍🏫</span>
+                        </div>
+                        <div class="teacher-overlay">
+                            <p style="color: white; font-weight: 600;">ICT & Computer Science</p>
+                        </div>
+                    </div>
+                    <h3 data-i18n="teacher5_name">Mr. Hassan Tech</h3>
+                    <p class="teacher-subject" data-i18n="teacher5_subject">Information Technology</p>
+                    <p class="teacher-bio" data-i18n="teacher5_bio">Tech-savvy educator bridging the gap between theory and practical application in computer science.</p>
+                    <div class="teacher-quals">
+                        <span>B.Sc IT</span>
+                        <span>Certified Trainer</span>
+                    </div>
+                </div>
+
+                <!-- Teacher 6 -->
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <div class="teacher-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            <span style="font-size: 4rem;">👩‍🏫</span>
+                        </div>
+                        <div class="teacher-overlay">
+                            <p style="color: white; font-weight: 600;">Arts & Sports</p>
+                        </div>
+                    </div>
+                    <h3 data-i18n="teacher6_name">Mrs. Sara Khan</h3>
+                    <p class="teacher-subject" data-i18n="teacher6_subject">Physical Education & Sports</p>
+                    <p class="teacher-bio" data-i18n="teacher6_bio">Passionate about developing physical fitness, teamwork, and sports excellence among students.</p>
+                    <div class="teacher-quals">
+                        <span>B.Ed PE</span>
+                        <span>Sports Coach</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Our Teachers Section -->
+    <section style="padding: 80px 20px; background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); color: white;">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem;" data-i18n="teachers_why_title">Why Choose Our Teachers?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div style="background: rgba(255,255,255,0.08); padding: 2.5rem; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 1rem; font-size: 1.3rem;">✓ Highly Qualified</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.8;" data-i18n="teachers_qualified">All teachers hold relevant degrees and teaching certifications with continuous professional development.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.08); padding: 2.5rem; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 1rem; font-size: 1.3rem;">✓ Experienced</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.8;" data-i18n="teachers_experienced">Average teaching experience of 12+ years with proven track record of student success.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.08); padding: 2.5rem; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 1rem; font-size: 1.3rem;">✓ Innovative</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.8;" data-i18n="teachers_innovative">Use modern teaching methodologies and incorporate technology in daily lessons.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.08); padding: 2.5rem; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 1rem; font-size: 1.3rem;">✓ Supportive</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.8;" data-i18n="teachers_supportive">Committed to individual student development with personalized attention and mentoring.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.08); padding: 2.5rem; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 1rem; font-size: 1.3rem;">✓ Passionate</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.8;" data-i18n="teachers_passionate">Deeply committed to fostering love for learning and academic excellence.</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.08); padding: 2.5rem; border-radius: 12px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 1rem; font-size: 1.3rem;">✓ Role Models</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.8;" data-i18n="teachers_rolemodels">Set excellent examples through integrity, professionalism, and dedication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Bradford School</h4>
+                    <p>Kohat, Pakistan</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-i18n="footer_home">Home</a></li>
+                        <li><a href="about.html" data-i18n="footer_about">About</a></li>
+                        <li><a href="teachers.html" data-i18n="nav_teachers">Teachers</a></li>
+                        <li><a href="contact.html" data-i18n="footer_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p data-i18n="footer_phone">Phone: +92-922-915555</p>
+                    <p data-i18n="footer_email">Email: info@bradfordschool.pk</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2024 Bradford School, Kohat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
